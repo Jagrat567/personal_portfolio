@@ -155,7 +155,7 @@ h1:hover,h2:hover{
 }
 input, button{
     border: 2px solid black;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
 }
 
 .contact_left{
@@ -188,4 +188,80 @@ input, button{
 .project_heading{
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.burger{
+    display: none;
+}
+
+/* .nav_links{
+
+} */
+
+@media screen and (max-width: 880px){
+    .burger{
+        display:block;
+    }
+    .nav_links{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    #about{
+        font-size: 85%;
+    }
+    .hero{
+        font-size: 65%;
+    }
+    footer{
+        font-size: 50%;
+    }
+    .socialimg{
+        width: 2rem;
+    }
+    .project{
+        font-size: 1rem;
+    }
+    .project_heading{
+        font-size: 1.5rem;
+    }
+    .contact{
+        font-size: 1rem;
+    }
+    .contact_right{
+        /* height: 0; */
+    }
+}
+
+@media screen and (max-width:376px){
+    .contact_left{
+        font-size: 69%;
+    }
+    .project{
+        font-size: 1.2em;
+    }
+    .project_heading{
+        margin-bottom: 0;
+    }
+    .skillh1{
+        font-size: large;
+    }
+    .aboutpara{
+        font-size: small;
+    }
+    .hero1{
+        font-size: smaller;
+    }
+    .btn-grad{
+        padding: 11% 23%;
+        font-size: smaller;
+    }
 }
