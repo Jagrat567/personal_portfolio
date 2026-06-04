@@ -6,6 +6,7 @@
 
 html, body {
     overflow-x: hidden; /* Prevents horizontal scrolling */
+    scroll-behavior: smooth
 }
 
 header{
@@ -235,9 +236,6 @@ nav{
     }
     .contact{
         font-size: 1rem;
-    }
-    .contact_right{
-        /* height: 0; */
     }
 }
 
